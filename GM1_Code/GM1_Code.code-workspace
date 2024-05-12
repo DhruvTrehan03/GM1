@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "3GM1_Test",
+			"path": "../../../../../../../../Documents/PlatformIO/Projects/3GM1_Test"
+		},
+		{
+			"name": "Pico (W) Remote Workspace",
+			"uri": "pico:"
+		}
+	],
+	"settings": {}
+}
