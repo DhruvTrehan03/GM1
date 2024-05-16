@@ -28,8 +28,8 @@ while True:
             print(k)
             hr.append(data[0])
             sp.append(data[2])
-            plt.plot(hr,'r')
-            plt.plot(sp,'g')
+            plt.plot(hr,'ro')
+            plt.plot(sp,'go')
             plt
             #plt.scatter(k,data[0], c='red')
             #plt.scatter(k,data[2], c='green')

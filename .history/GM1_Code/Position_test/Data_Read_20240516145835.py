@@ -4,8 +4,7 @@ import matplotlib.pyplot as plt
 
 arduino = serial.Serial(port='COM8',  baudrate=115200, timeout=.1)
 data = []
-hr = []
-sp = []
+array = []
 k=0
 
 def write_read(x):
@@ -26,11 +25,8 @@ while True:
             data[i] = int(data[i].split("=")[1])
         if data[1] == 1 and data[3] == 1:
             print(k)
-            hr.append(data[0])
-            sp.append(data[2])
-            plt.plot(hr,'r')
-            plt.plot(sp,'g')
-            plt
+            array.append([data[0], data[2]])
+            plt.plot(array[0])
             #plt.scatter(k,data[0], c='red')
             #plt.scatter(k,data[2], c='green')
             plt.pause(0.05)

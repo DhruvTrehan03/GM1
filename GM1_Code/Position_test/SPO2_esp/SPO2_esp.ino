@@ -68,7 +68,7 @@ void loop()
   Serial.print(heartRate, DEC);
   Serial.print(F(", heartRateValid="));
   Serial.print(heartRateValid, DEC);
-  Serial.print(F("; SPO2="));
+  Serial.print(F(", SPO2="));
   Serial.print(SPO2, DEC);
   Serial.print(F(", SPO2Valid="));
   Serial.println(SPO2Valid, DEC);
