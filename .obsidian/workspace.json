@@ -102,9 +102,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "86de25a3ff865079",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Easter Notes/23.05.2024.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -170,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Easter Notes/Notes.md",
+                "file": "Easter Notes/23.05.2024.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Easter Notes/Notes.md",
+                "file": "Easter Notes/23.05.2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Easter Notes/Notes.md"
+                "file": "Easter Notes/23.05.2024.md"
               }
             }
           }
@@ -231,8 +243,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b3080b9e939433e",
+  "active": "86de25a3ff865079",
   "lastOpenFiles": [
+    "Easter Notes/Notes.md",
+    "Easter Notes/23.05.2024.md",
     "Libraries/MAX30102-MicroPython-driver-main/examples/heart_rate/lib/README.md",
     "Libraries/MAX30102-MicroPython-driver-main/examples/basic_usage/lib/README.md",
     "Libraries/MAX30102-MicroPython-driver-main/examples/heart_rate/README.md",
@@ -251,7 +265,6 @@
     "Easter/Test/blink/blink/README.md",
     "Easter/Test/blink/README.md",
     "Easter Notes/Questions.md",
-    "Easter Notes/Notes.md",
     "Ideas.md",
     "Things to think about.md",
     "Pasted image 20240214155909.png",
