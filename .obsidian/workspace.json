@@ -245,6 +245,8 @@
   },
   "active": "86de25a3ff865079",
   "lastOpenFiles": [
+    "GM1_Code/SpO2/SPO2_esp82/SPO2_esp82.ino",
+    "GM1_Code/SpO2/SPO2_esp82",
     "Easter Notes/Notes.md",
     "Easter Notes/23.05.2024.md",
     "Libraries/MAX30102-MicroPython-driver-main/examples/heart_rate/lib/README.md",
@@ -260,7 +262,6 @@
     "Libraries/MAX30102-MicroPython-driver-main/max30102/circular_buffer.py",
     "Libraries/MAX30102-MicroPython-driver-main/img/arduino-IDE-serial-plotter-heartbeat.png",
     "Libraries/MAX30102-MicroPython-driver-main/examples/heart_rate",
-    "Libraries/MAX30102-MicroPython-driver-main/examples/basic_usage",
     "Libraries/MAX30102-MicroPython-driver-main/README.md",
     "Easter/Test/blink/blink/README.md",
     "Easter/Test/blink/README.md",
