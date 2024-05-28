@@ -25,10 +25,9 @@ pulseWidth:    SAMPLERATE_50 SAMPLERATE_100 SAMPLERATE_200 SAMPLERATE_400
                SAMPLERATE_800 SAMPLERATE_1000 SAMPLERATE_1600 SAMPLERATE_3200
 adcRange:      ADCRANGE_2048 ADCRANGE_4096 ADCRANGE_8192 ADCRANGE_16384
 */
-void setup()
+void set_spo2()
 {
-  //Init serial
-  Serial.begin(115200);
+
   /*!
    *@brief Init sensor 
    *@param pWire IIC bus pointer object and construction device, can both pass or not pass parameters (Wire in default)
@@ -39,7 +38,6 @@ void setup()
     Serial.println("MAX30102 was not found");
     delay(1000);
   }
-
   /*!
    *@brief Use macro definition to configure sensor 
    *@param ledBrightness LED brightness, default value: 0x1F（6.4mA), Range: 0~255（0=Off, 255=50mA）
@@ -54,23 +52,10 @@ void setup()
                         /*pulseWidth=*/PULSEWIDTH_411, /*adcRange=*/ADCRANGE_16384);
 }
 
-int32_t SPO2; //SPO2
-int8_t SPO2Valid; //Flag to display if SPO2 calculation is valid
-int32_t heartRate; //Heart-rate
-int8_t heartRateValid; //Flag to display if heart-rate calculation is valid 
 
-void loop()
+void get_spo2()
 {
   //Serial.println(F("Wait about four seconds"));
-  particleSensor.heartrateAndOxygenSaturation(/**SPO2=*/&SPO2, /**SPO2Valid=*/&SPO2Valid, /**heartRate=*/&heartRate, /**heartRateValid=*/&heartRateValid);
-  //Print result 
-  Serial.print(F("heartRate="));
-  Serial.print(heartRate, DEC);
-  Serial.print(F(", heartRateValid="));
-  Serial.print(heartRateValid, DEC);
-  Serial.print(F(", SPO2="));
-  Serial.print(SPO2, DEC);
-  Serial.print(F(", SPO2Valid="));
-  Serial.println(SPO2Valid, DEC);
+  return particleSensor.heartrateAndOxygenSaturation(/**SPO2=*/&SPO2, /**SPO2Valid=*/&SPO2Valid, /**heartRate=*/&heartRate, /**heartRateValid=*/&heartRateValid);
 }
 
