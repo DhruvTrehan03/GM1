@@ -102,9 +102,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "86de25a3ff865079",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Easter Notes/23.05.2024.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -170,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Easter Notes/Notes.md",
+                "file": "Easter Notes/23.05.2024.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Easter Notes/Notes.md",
+                "file": "Easter Notes/23.05.2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Easter Notes/Notes.md"
+                "file": "Easter Notes/23.05.2024.md"
               }
             }
           }
@@ -231,27 +243,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b3080b9e939433e",
+  "active": "86de25a3ff865079",
   "lastOpenFiles": [
+    "GM1_Code/Main/SPI_Communication/SPI_Communication.ino",
+    "GM1_Code/Main/SPI_Communication",
+    "GM1_Code/Main/New folder",
+    "GM1_Code/Main/Main/SpO2.ino",
+    "GM1_Code/Main/Main/Accelerometer.ino",
+    "GM1_Code/Main/Main/Main.ino",
+    "GM1_Code/Main/Main",
+    "GM1_Code/Main/SPO2/SPO2.ino",
+    "GM1_Code/Main/SPO2",
+    "GM1_Code/Main/Accelerometer/Accelerometer.ino",
+    "GM1_Code/Main/Accelerometer",
+    "Easter Notes/Notes.md",
+    "Easter Notes/23.05.2024.md",
     "Libraries/MAX30102-MicroPython-driver-main/examples/heart_rate/lib/README.md",
     "Libraries/MAX30102-MicroPython-driver-main/examples/basic_usage/lib/README.md",
     "Libraries/MAX30102-MicroPython-driver-main/examples/heart_rate/README.md",
-    "Libraries/MAX30102-MicroPython-driver-main/examples/heart_rate/main.py",
-    "Libraries/MAX30102-MicroPython-driver-main/examples/heart_rate/lib",
-    "Libraries/MAX30102-MicroPython-driver-main/examples/heart_rate/boot.py",
-    "Libraries/MAX30102-MicroPython-driver-main/examples/basic_usage/main.py",
-    "Libraries/MAX30102-MicroPython-driver-main/examples/basic_usage/lib",
-    "Libraries/MAX30102-MicroPython-driver-main/examples/basic_usage/boot.py",
-    "Libraries/MAX30102-MicroPython-driver-main/max30102/__init__.py",
-    "Libraries/MAX30102-MicroPython-driver-main/max30102/circular_buffer.py",
     "Libraries/MAX30102-MicroPython-driver-main/img/arduino-IDE-serial-plotter-heartbeat.png",
-    "Libraries/MAX30102-MicroPython-driver-main/examples/heart_rate",
-    "Libraries/MAX30102-MicroPython-driver-main/examples/basic_usage",
     "Libraries/MAX30102-MicroPython-driver-main/README.md",
     "Easter/Test/blink/blink/README.md",
     "Easter/Test/blink/README.md",
     "Easter Notes/Questions.md",
-    "Easter Notes/Notes.md",
     "Ideas.md",
     "Things to think about.md",
     "Pasted image 20240214155909.png",
